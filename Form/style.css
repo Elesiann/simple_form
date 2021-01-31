@@ -1,0 +1,63 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #8488A9;
+}
+
+.user {
+    background: #787EA4;
+    border-radius: 50%;
+    
+}
+
+#container {
+    width: 400px;
+    height: 300px;
+    background-color: rgba(25885, 255, 255, 0.2);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 120px;
+    text-align: center;
+}
+
+#container img {
+    width: 150px;
+    height: 150px;
+    margin-top: -70px;
+    margin-bottom: 30px;
+}
+
+input.email, input.senha {
+    height: 40px;
+    width: 80%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-left: 40px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    border-radius: 10px;
+}
+
+input.entrar {
+    height: 40px;
+    width: 91%;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    background-color:#4e3f92;
+    background: linear-gradient(to top, #505183, #787EA4);
+    background: -webkit-linear-gradient(to top, #505183, #787EA4);
+    background: -moz-linear-gradient(to top, #505183, #787EA4);
+    background: -o-linear-gradient(to top, #505183, #787EA4);
+    border-radius: 10px;
+}   
+
+
+input.email {
+    background-image: url(/icons/user-icon.png);
+}
+
+input.senha {
+    background-image: url(/icons/lock-icon.png);
+}
